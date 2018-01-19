@@ -1,5 +1,10 @@
 # LBM
 
+Video: https://youtu.be/NlZlM59YK3w
+
+Details: http://dx.doi.org/10.13140/2.1.1606.1120
+
+# 
 The following code is provided "as is" as a learning tool for those interested in LBM, and is to be used at your own risk.
 Can be used and distributed freely. Please cite the paper below should you enjoy it!
 Please read the following paper for further details:
