@@ -20,22 +20,3 @@ for i=1:nx
     end
 end
 fclose('all');
-
-%% file read
-A=fopen('CUDA\LBMGPU\LBMGPU\U_100_plus_1.txt','r');
-ii=fscanf(A,'U(%d,%d)=%f\n' );
-for t=1:3:120000
-    U_scnd(ii(t),ii(t+1))=ii(t+2);
-    
-end
-
-fclose('all');
-
-
-j=1:ny;
-i=1:nx;
-figure
-contourf(j,i,U_scnd)
-title('contour of U velocity')
-xlabel('Channel Height (Y)')
-ylabel('Channel Length (X)')
